@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>টাকা আয় করুন - বিজ্ঞাপন দেখুন</title>
-  <script src='//libtl.com/sdk.js' data-zone='10601115' data-sdk='show_10601115'></script>
+ <script src='//libtl.com/sdk.js' data-zone='10623259' data-sdk='show_10623259'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         :root {
@@ -847,7 +847,7 @@
 
         // Check if Monetag ad is ready
         function checkAdReady() {
-            if (typeof window.show_10601115 !== 'function') {
+            if (typeof window.show_10623259 !== 'function') {
                 document.getElementById('ad-status').innerHTML = '<i class="fas fa-spinner fa-spin"></i> বিজ্ঞাপন সিস্টেম লোড হচ্ছে...';
                 setTimeout(checkAdReady, 1000);
             } else {
@@ -915,7 +915,7 @@
             
             try {
                 // Show the ad
-                window.show_10601115().then(() => {
+                window.show_10623259().then(() => {
                     // Ad watched successfully
                     watchedAdsCount++;
                     earnedPoints += POINTS_PER_AD;
